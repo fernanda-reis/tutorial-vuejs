@@ -1,0 +1,5 @@
+dependency: core.js -> lib to transpile newer javascript versions to older javascript, so all the brownsers can understand it.
+dependency: compiler-sfc -> lib to transpile vue to javascript
+cli command: vue-cli-service -> "serve", "build" or "inspect" application
+cli command: npx vue-cli-service serve -> If you want to run the local package without fixing global paths, prefix your command with npx. This forces Node to look inside your local node_modules/.bin folder
+command: npm run {custom scripts in package.json}
